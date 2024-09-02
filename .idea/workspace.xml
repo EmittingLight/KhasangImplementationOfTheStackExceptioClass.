@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67504411-2f07-43d9-bae8-0aa69caa9c49" name="Changes" comment="" />
+    <list default="true" id="67504411-2f07-43d9-bae8-0aa69caa9c49" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../KhasangImplementationOfTheStackExceptioClass/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../KhasangImplementationOfTheStackExceptioClass/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KhasangImplementationOfTheStackExceptioClass/KhasangImplementationOfTheStackExceptioClass..iml" beforeDir="false" afterPath="$PROJECT_DIR$/../KhasangImplementationOfTheStackExceptioClass/KhasangImplementationOfTheStackExceptioClass..iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,31 +18,58 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../KhasangImplementationOfTheStackExceptioClass" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2lWC7ZVn2IBxcRmjzozGgGkyDWV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.StackTest.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.StackTest.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "true",
+    "JUnit.ArrayStackTest.executor": "Run",
+    "JUnit.ArrayStackTest.push.executor": "Run",
+    "JUnit.ArrayStackTest.testPeek.executor": "Run",
+    "JUnit.ArrayStackTest.testPushOverCapacity.executor": "Run",
+    "Repository.Attach.Annotations": "true",
+    "Repository.Attach.JavaDocs": "true",
+    "Repository.Attach.Sources": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers": "true",
+    "create.test.in.the.same.root": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ArrayStackTest">
     <configuration name="StackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="StackTest" />
       <module name="KhasangImplementationOfTheStackExceptioClass." />
@@ -47,8 +77,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ArrayStackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KhasangImplementationOfTheStackExceptioClass." />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ArrayStackTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayStackTest.testPeek" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KhasangImplementationOfTheStackExceptioClass." />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ArrayStackTest" />
+      <option name="METHOD_NAME" value="testPeek" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayStackTest.testPushAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KhasangImplementationOfTheStackExceptioClass." />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ArrayStackTest" />
+      <option name="METHOD_NAME" value="testPushAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayStackTest.testPushOverCapacity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KhasangImplementationOfTheStackExceptioClass." />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ArrayStackTest" />
+      <option name="METHOD_NAME" value="testPushOverCapacity" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ArrayStackTest" />
+        <item itemvalue="JUnit.ArrayStackTest.testPushAll" />
+        <item itemvalue="JUnit.ArrayStackTest.testPeek" />
+        <item itemvalue="JUnit.ArrayStackTest.testPushOverCapacity" />
         <item itemvalue="Application.StackTest" />
       </list>
     </recent_temporary>
@@ -70,11 +143,25 @@
       <option name="presentableId" value="Default" />
       <updated>1725286280371</updated>
       <workItem from="1725286281789" duration="2357000" />
-      <workItem from="1725288715145" duration="1389000" />
+      <workItem from="1725288715145" duration="2502000" />
+      <workItem from="1725293739796" duration="1367000" />
+      <workItem from="1725295183025" duration="1240000" />
+      <workItem from="1725296482096" duration="713000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../KhasangImplementationOfTheStackExceptioClass/src/ArrayStack.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
