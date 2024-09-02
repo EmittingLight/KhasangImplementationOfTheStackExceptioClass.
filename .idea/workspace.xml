@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67504411-2f07-43d9-bae8-0aa69caa9c49" name="Changes" comment="">
+    <list default="true" id="67504411-2f07-43d9-bae8-0aa69caa9c49" name="Changes" comment="Добавил unit-test ArrayStackTest">
       <change beforePath="$PROJECT_DIR$/../KhasangImplementationOfTheStackExceptioClass/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../KhasangImplementationOfTheStackExceptioClass/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KhasangImplementationOfTheStackExceptioClass/KhasangImplementationOfTheStackExceptioClass..iml" beforeDir="false" afterPath="$PROJECT_DIR$/../KhasangImplementationOfTheStackExceptioClass/KhasangImplementationOfTheStackExceptioClass..iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KhasangImplementationOfTheStackExceptioClass/src/ArrayStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/../KhasangImplementationOfTheStackExceptioClass/src/ArrayStack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +42,8 @@
     "JUnit.ArrayStackTest.executor": "Run",
     "JUnit.ArrayStackTest.push.executor": "Run",
     "JUnit.ArrayStackTest.testPeek.executor": "Run",
+    "JUnit.ArrayStackTest.testPush.executor": "Run",
+    "JUnit.ArrayStackTest.testPushAll.executor": "Run",
     "JUnit.ArrayStackTest.testPushOverCapacity.executor": "Run",
     "Repository.Attach.Annotations": "true",
     "Repository.Attach.JavaDocs": "true",
@@ -69,14 +71,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ArrayStackTest">
-    <configuration name="StackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StackTest" />
-      <module name="KhasangImplementationOfTheStackExceptioClass." />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ArrayStackTest.testPushOverCapacity">
     <configuration name="ArrayStackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="KhasangImplementationOfTheStackExceptioClass." />
       <option name="PACKAGE_NAME" value="" />
@@ -91,6 +86,16 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ArrayStackTest" />
       <option name="METHOD_NAME" value="testPeek" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayStackTest.testPush" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KhasangImplementationOfTheStackExceptioClass." />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ArrayStackTest" />
+      <option name="METHOD_NAME" value="testPush" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -118,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ArrayStackTest.testPushOverCapacity" />
+        <item itemvalue="JUnit.ArrayStackTest.testPush" />
         <item itemvalue="JUnit.ArrayStackTest" />
         <item itemvalue="JUnit.ArrayStackTest.testPushAll" />
         <item itemvalue="JUnit.ArrayStackTest.testPeek" />
-        <item itemvalue="JUnit.ArrayStackTest.testPushOverCapacity" />
-        <item itemvalue="Application.StackTest" />
       </list>
     </recent_temporary>
   </component>
@@ -146,12 +151,25 @@
       <workItem from="1725288715145" duration="2502000" />
       <workItem from="1725293739796" duration="1367000" />
       <workItem from="1725295183025" duration="1240000" />
-      <workItem from="1725296482096" duration="713000" />
+      <workItem from="1725296482096" duration="1434000" />
     </task>
+    <task id="LOCAL-00001" summary="Добавил unit-test ArrayStackTest">
+      <option name="closed" value="true" />
+      <created>1725297555727</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725297555727</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Добавил unit-test ArrayStackTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил unit-test ArrayStackTest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
